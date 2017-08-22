@@ -1,17 +1,18 @@
 {
-  "name": "vex-js",
-  "version": "4.0.0",
-  "description": "Beautiful, functional dialogs in vanilla JavaScript",
+  "name": "vex-scss",
+  "version": "4.1.0",
+  "description": "Beautiful, functional dialogs in vanilla JavaScript and SCSS",
   "contributors": [
     "Adam Schwartz <aschwartz@hubspot.com>",
     "Brendan Batliner <brendan@omnipointment.com>",
-    "Mark Stosberg <mark@rideamigos.com>"
+    "Mark Stosberg <mark@rideamigos.com>",
+    "Allan James Vestal <ajvestal@dallasnews.com>"
   ],
   "license": "MIT",
   "main": "dist/js/vex.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HubSpot/vex.git"
+    "url": "https://github.com/allanjamesvestal/vex-scss.git"
   },
   "dependencies": {
     "classlist-polyfill": "1.0.3",
