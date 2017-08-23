@@ -5,7 +5,7 @@ module.exports = function (grunt) {
 
     browserify: {
       vex: {
-        src: 'src/vex.js',
+        src: 'src/js/vex.js',
         dest: 'dist/js/vex.js',
         options: {
           browserifyOptions: {
@@ -14,7 +14,7 @@ module.exports = function (grunt) {
         }
       },
       combined: {
-        src: 'src/vex.combined.js',
+        src: 'src/js/vex.combined.js',
         dest: 'dist/js/vex.combined.js',
         options: {
           browserifyOptions: {
@@ -46,7 +46,7 @@ module.exports = function (grunt) {
     compass: {
       dist: {
         options: {
-          sassDir: 'sass',
+          sassDir: 'src/scss',
           cssDir: 'dist/css'
         }
       }
@@ -54,11 +54,11 @@ module.exports = function (grunt) {
 
     sass: {
       dist: {
-        cwd: 'sass',
+        cwd: 'src/scss',
         dest: 'dist/css',
         expand: true,
         outputStyle: 'compressed',
-        src: '*.sass',
+        src: '*.scss',
         ext: '.css'
       }
     }
